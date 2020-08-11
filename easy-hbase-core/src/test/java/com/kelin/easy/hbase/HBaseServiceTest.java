@@ -54,7 +54,7 @@ public class HBaseServiceTest {
 
         assertThat(articleBean).isNotNull();
         assertThat(articleBean.getStatus()).isNull();
-        assertThat(articleBean.getTitle()).isEqualTo("测试123");
+        assertThat(articleBean.getTitle()).isEqualTo("测试1");
     }
 
     @Test
